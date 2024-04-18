@@ -25,7 +25,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import profilePicture from "assets/images/bruce-mars.jpg";
+import profilePicture from "assets/images/gagan1.jpg";
 
 function Profile() {
   return (
@@ -38,14 +38,20 @@ function Profile() {
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Michael Roven</MKTypography>
-                <MKButton variant="outlined" color="info" size="small">
-                  Follow
-                </MKButton>
+                <MKTypography variant="h3">Hey, I&apos;m Gagan</MKTypography>
+                <a
+                  href="https://www.instagram.com/nomadic.cinematographer?igsh=MjM0Zm9laGtiMzhk"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MKButton variant="outlined" color="info" size="small">
+                    Follow
+                  </MKButton>
+                </a>
               </MKBox>
               <Grid container spacing={3} mb={3}>
                 <Grid item>
-                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                  {/* <MKTypography component="span" variant="body2" fontWeight="bold">
                     323&nbsp;
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
@@ -55,27 +61,30 @@ function Profile() {
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
                     3.5k&nbsp;
-                  </MKTypography>
-                  <MKTypography component="span" variant="body2" color="text">
+                  </MKTypography> */}
+                  {/* <MKTypography component="span" variant="body2" color="text">
                     Followers
-                  </MKTypography>
+                  </MKTypography> */}
                 </Grid>
                 <Grid item>
-                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                  {/* <MKTypography component="span" variant="body2" fontWeight="bold">
                     260&nbsp;
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
                     Following
-                  </MKTypography>
+                  </MKTypography> */}
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
+                A seasoned management consultant with 6 years of experience in Energy, Digital
+                Adaptation, and Healthcare. I&apos;ve led transformative initiatives, slashing costs
+                by 30-40%, and earned rave reviews with my strategic insights and continuous
+                innovation. When I&apos;m not crafting solutions, you&apos;ll find me indulging in
+                cinematography, trekking, and solo adventures, or building SAS applications in my
+                free time. <br />
                 <MKTypography
                   component="a"
-                  href="#"
+                  href="https://www.linkedin.com/in/gagan-r-338451171"
                   variant="body1"
                   fontWeight="light"
                   color="info"

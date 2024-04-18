@@ -19,12 +19,11 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/examples/blog2.jpg";
+import bgImage from "assets/images/land.jpg";
 
 function Contact() {
   return (
@@ -69,23 +68,22 @@ function Contact() {
                     <MKTypography variant="h3" color="white" mb={1}>
                       Contact Information
                     </MKTypography>
-                    <MKTypography variant="body2" color="white" opacity={0.8} mb={3}>
-                      Fill up the form and our Team will get back to you within 24 hours.
-                    </MKTypography>
                     <MKBox display="flex" p={1}>
                       <MKTypography variant="button" color="white">
                         <i className="fas fa-phone" />
                       </MKTypography>
-                      <MKTypography
-                        component="span"
-                        variant="button"
-                        color="white"
-                        opacity={0.8}
-                        ml={2}
-                        fontWeight="regular"
-                      >
-                        (+40) 772 100 200
-                      </MKTypography>
+                      <a href="tel:+91-9206-00-4682">
+                        <MKTypography
+                          component="span"
+                          variant="button"
+                          color="white"
+                          opacity={0.8}
+                          ml={2}
+                          fontWeight="regular"
+                        >
+                          (+91) 9206004682
+                        </MKTypography>
+                      </a>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
                       <MKTypography variant="button" color="white">
@@ -99,7 +97,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        hello@creative-tim.com
+                        gagan.r.blr@gmail.com
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
@@ -114,27 +112,33 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        Dyonisie Wolf Bucharest, RO 010458
+                        Brundhavana 4, 4th cross Bengaluru 560050
                       </MKTypography>
                     </MKBox>
                     <MKBox mt={3}>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-facebook" style={{ fontSize: "1.25rem" }} />
+                        <a
+                          href="https://www.instagram.com/nomadic.cinematographer?igsh=MjM0Zm9laGtiMzhk"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} />
+                        </a>
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-twitter" style={{ fontSize: "1.25rem" }} />
-                      </MKButton>
-                      <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-dribbble" style={{ fontSize: "1.25rem" }} />
-                      </MKButton>
-                      <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} />
+                        <a
+                          href="https://www.linkedin.com/in/gagan-r-338451171/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fab fa-linkedin" style={{ fontSize: "1.25rem" }} />
+                        </a>
                       </MKButton>
                     </MKBox>
                   </MKBox>
                 </MKBox>
               </Grid>
-              <Grid item xs={12} lg={7}>
+              {/* <Grid item xs={12} lg={7}>
                 <MKBox component="form" p={2} method="post">
                   <MKBox px={3} py={{ xs: 2, sm: 6 }}>
                     <MKTypography variant="h2" mb={1}>
@@ -191,7 +195,7 @@ function Contact() {
                     </Grid>
                   </MKBox>
                 </MKBox>
-              </Grid>
+              </Grid> */}
             </Grid>
           </MKBox>
         </Grid>

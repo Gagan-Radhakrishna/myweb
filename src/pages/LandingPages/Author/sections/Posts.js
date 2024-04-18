@@ -29,7 +29,6 @@ import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
 import post1 from "assets/images/examples/testimonial-6-2.jpg";
 import post2 from "assets/images/examples/testimonial-6-3.jpg";
 import post3 from "assets/images/examples/blog-9-4.jpg";
-import post4 from "assets/images/examples/blog2.jpg";
 
 function Places() {
   return (
@@ -37,18 +36,20 @@ function Places() {
       <Container>
         <Grid container item xs={12} lg={6}>
           <MKTypography variant="h3" mb={6}>
-            Check my latest blogposts
+            Recognition & Testaments
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post1}
-              title="Rover raised $65 million"
-              description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
+              title="Outstanding Performance Award"
+              description="Thank you for all the support that you have provided MUT team
+
+              despite challenges in your workstream. Your curiousity and accountability are second to none! The tech maturity you have shown while executing these complex time-crunched project is highly commendable. Gagan, soar to new heights!"
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.linkedin.com/in/gagan-r-338451171",
                 color: "info",
                 label: "read more",
               }}
@@ -57,11 +58,11 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post2}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="Applause Award"
+              description="Gagan's unbelievable performance these past few months have showcased his abilities to the hilt. His dedication and constant desire to surpass expectations is absolutely admirable. In times of need, Gagan has time and again proven by his presence of being dependable. Outstanding work, exceptional performance and all round positivity"
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.linkedin.com/in/gagan-r-338451171",
                 color: "info",
                 label: "read more",
               }}
@@ -70,11 +71,20 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post3}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="Stake holder's Appreciation"
+              description="Hi Gagan,
+              Thank you for all of your hard work on delivering
+              the innovative and insightful analysis on Smart
+              St.'s performance. Your diligence, creativity, and
+              dedication has been critical to improving the
+              team's understanding of this new, high-visibility
+              feature, and has empowered them to speak to its
+              functionality in an impactful way
+              I appreciate you going above and beyond on this.
+              It's made a world of difference!"
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "https://www.linkedin.com/in/gagan-r-338451171",
                 color: "info",
                 label: "read more",
               }}
@@ -82,13 +92,13 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <BackgroundBlogCard
-              image={post4}
-              title="Flexible work hours"
-              description="Rather than worrying about switching offices every couple years, you stay in the same place."
+              image={post3}
+              title="Presonal Projects"
+              description=""
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
-                label: "read more",
+                route: "https://talentelly.vercel.app/",
+                label: "",
               }}
             />
           </Grid>
